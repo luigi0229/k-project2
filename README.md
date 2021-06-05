@@ -25,7 +25,7 @@ Simple Terraform project that creates a Google Kubernetes Engine cluster, deploy
 
 Clone this repo to your local machine.
 
-Open the `variables.tf` file, and change the default attribute of variable GCP_project_name to the name of the project created on the prerequisites section.
+Open the `variables.tf` file, and change the `default` attribute of variable `GCP_project_name` to the name of the project created on the prerequisites section.
 
 Navigate to the repo's directory using terminal, and run:
 
