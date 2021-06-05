@@ -7,6 +7,10 @@ Simple Terraform project that creates a Google Kubernetes Engine cluster, deploy
 
 #### Prerequisites
 
+* Create a GCP Project, and enable the following services:
+  `Kubernetes Engine`
+  `Compute Engine`
+
 * Install GCloud SDK
   https://cloud.google.com/sdk/docs/quickstart
 
@@ -20,6 +24,9 @@ Simple Terraform project that creates a Google Kubernetes Engine cluster, deploy
 #### Deployment
 
 Clone this repo to your local machine.
+
+Open the `variables.tf` file, and change the default attribute of variable GCP_project_name to the name of the project created on the prerequisites section.
+
 Navigate to the repo's directory using terminal, and run:
 
     `terraform apply`
