@@ -11,7 +11,8 @@ Simple Terraform project that creates a Google Kubernetes Engine cluster, deploy
   https://cloud.google.com/sdk/docs/quickstart
 
 * Initialize GCloud SDK using command Below
-  gcloud auth application-default login
+
+  `gcloud auth application-default login`
 
 * Install Terraform
   https://learn.hashicorp.com/tutorials/terraform/install-cli
@@ -20,7 +21,8 @@ Simple Terraform project that creates a Google Kubernetes Engine cluster, deploy
 
 Clone this repo to your local machine.
 Navigate to the repo's directory using terminal, and run:
-    terraform apply
+
+    `terraform apply`
 
 #### Output
 
