@@ -33,6 +33,8 @@ Open the `variables.tf` file, and change the `default` attribute of variable `GC
 
 Navigate to the repo's directory using terminal, and run:
 
+    terraform init
+
     terraform apply
 
 #### Output
