@@ -12,7 +12,7 @@ NOTE: The instance types used in this cluster are not free tier eligible.
 #### Prerequisites
 
 * Create a GCP Project, and enable the following services:
-  `Kubernetes Engine`
+  `Kubernetes Engine API`
   `Compute Engine`
 
 * Install GCloud SDK
@@ -34,6 +34,8 @@ Open the `variables.tf` file, and change the `default` attribute of variable `GC
 Navigate to the repo's directory using terminal, and run:
 
     terraform init
+
+Navigate to `providers.tf` and comment out the kubernetes-engine module (Lines 9 through 12).
 
     terraform apply
 
