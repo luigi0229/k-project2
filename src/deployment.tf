@@ -25,7 +25,7 @@ resource "kubernetes_deployment" "app" {
           name  = var.app
           port {
             name           = "port-80"
-            container_port = 8080
+            container_port = 80
           }
         }
       }
@@ -42,8 +42,8 @@ resource "kubernetes_service" "app" {
       app = kubernetes_deployment.app.metadata.0.labels.app
     }
     port {
-      port        = 8080
-      target_port = 8080
+      port        = 80
+      target_port = 80
     }
     type = "LoadBalancer"
   }
