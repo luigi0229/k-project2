@@ -29,7 +29,7 @@ NOTE: The instance types used in this cluster are not free tier eligible.
 
 Clone this repo to your local machine.
 
-Open the `variables.tf` file, and change the `default` attribute of variable `GCP_project_name` to the name of the project created on the prerequisites section.
+Open the `variables.tf` file, and change the `default` attribute of variable `GCP_project_name` to the ID of the project created on the prerequisites section. (IT'S VERY IMPORTANT THAT YOU USE THE ID AND NOT THE PROJECT NAME)
 
 Navigate to the repo's directory using terminal, and run:
 
