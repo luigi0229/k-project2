@@ -6,10 +6,10 @@ provider "google" {
 
 data "google_client_config" "default" {}
 
-module "kubernetes-engine" {
-  source  = "terraform-google-modules/kubernetes-engine/google"
-  version = "14.3.0"
-}
+# module "kubernetes-engine" {
+#   source  = "terraform-google-modules/kubernetes-engine/google"
+#   version = "14.3.0"
+# }
 
 provider "kubernetes" {
   load_config_file       = false

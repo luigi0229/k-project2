@@ -7,7 +7,7 @@ variable "zone" {
 }
 
 variable "cluster" {
-  default = "my-first-cluster"
+  default = "my-second-cluster"
 }
 
 variable "app" {
@@ -15,9 +15,9 @@ variable "app" {
 }
 
 variable "GCP_project_name" {
-  default = "GKS Sandbox"
+  default = "gks-sandbox"
 }
 
 variable "docker-image" {
-  default = "wordpress"
+  default = "stilliard/pure-ftpd:latest"
 }
